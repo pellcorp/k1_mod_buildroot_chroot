@@ -17,7 +17,7 @@ PYTHON3_CPE_ID_PRODUCT = python
 # cross-compiling third-party Python modules.
 
 HOST_PYTHON3_CONF_OPTS += \
-	--with-ensurepip=install \
+	--without-ensurepip \
 	--without-cxx-main \
 	--disable-sqlite3 \
 	--disable-tk \
